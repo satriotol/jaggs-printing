@@ -3,9 +3,10 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container">
-        <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a>
-        <h1 data-aos="zoom-in">Welcome To Knight Studios</h1>
-        <h2 data-aos="fade-up">We are team of talented designers making websites with Bootstrap</h2>
+        {{-- <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a> --}}
+        <h1 data-aos="zoom-in" style="font-family: tw;font-size: 70px;">JAGGS</h1>
+        <h1 data-aos="fade-up" style="font-size:15px">WE CAN PRINT UNIVERSE</h1>
+        <h2 data-aos="fade-up" style="font-family: mr">Printing</h2>
         <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
 </section><!-- End Hero -->

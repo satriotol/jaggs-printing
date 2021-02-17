@@ -28,6 +28,16 @@
 
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <style>
+        @font-face{
+            font-family: 'mr';
+            src: url('{{ asset('font/mr.ttf') }}');
+        }
+        @font-face{
+            font-family: 'tw';
+            src: url('{{ asset('font/tw.ttf') }}');
+        }
+    </style>
 
     <!-- =======================================================
   * Template Name: Knight - v2.2.1
