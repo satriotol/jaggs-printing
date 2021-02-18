@@ -4,10 +4,10 @@
 <section id="hero">
     <div class="hero-container">
         {{-- <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a> --}}
-        <h1 data-aos="zoom-in" style="font-family: tw;font-size: 70px;">JAGGS</h1>
-        <h1 data-aos="fade-up" style="font-size:15px">WE CAN PRINT UNIVERSE</h1>
-        <h2 data-aos="fade-up" style="font-family: mr">Printing</h2>
-        <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Get Started</a>
+        <h1 data-aos="zoom-in" style="font-family: tw">JAGGS</h1>
+        <h1 class="we" data-aos="fade-up">WE CAN PRINT UNIVERSE</h1>
+        <h1 class="print" data-aos="fade-up" style="font-family: mr">Printing</h1>
+        <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">ORDER NOW</a>
     </div>
 </section><!-- End Hero -->
 
@@ -22,30 +22,13 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul class="nav-inner">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="drop-down"><a href="">About</a>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#team">Team</a></li>
-
-                        <li class="drop-down"><a href="#">Deep Drop</a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                <li class="active"><a href="#about">Home</a></li>
                 <li><a href="#services">Services</a></li>
-
+                <li><a href="#pricing">Product</a></li>
                 <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
                 </li>
-
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#pricing">Customer</a></li>
+                <li><a href="#pricing">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -62,7 +45,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>About Us</h2>
-                <p>Magnam dolores commodi suscipit eius consequatur</p>
+                <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -108,7 +91,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Services</h2>
-                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -287,7 +270,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -549,7 +532,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Team</h2>
-                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -625,7 +608,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Pricing</h2>
-                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -789,7 +772,7 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
             <div class="row">
