@@ -123,300 +123,67 @@
 
         </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Featured Section ======= -->
-    <section id="featured" class="featured">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <div class="tab-content">
-                        <div class="tab-pane active show" id="tab-1">
-                            <figure>
-                                <img src="assets/img/featured-1.png" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                        <div class="tab-pane" id="tab-2">
-                            <figure>
-                                <img src="assets/img/featured-2.png" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                        <div class="tab-pane" id="tab-3">
-                            <figure>
-                                <img src="assets/img/featured-3.png" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                        <div class="tab-pane" id="tab-4">
-                            <figure>
-                                <img src="assets/img/featured-4.png" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-                    <ul class="nav nav-tabs flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                                <h4>Modi sit est</h4>
-                                <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-                            </a>
-                        </li>
-                        <li class="nav-item mt-2">
-                            <a class="nav-link" data-toggle="tab" href="#tab-2">
-                                <h4>Unde praesentium sed</h4>
-                                <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                            </a>
-                        </li>
-                        <li class="nav-item mt-2">
-                            <a class="nav-link" data-toggle="tab" href="#tab-3">
-                                <h4>Pariatur explicabo vel</h4>
-                                <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-                            </a>
-                        </li>
-                        <li class="nav-item mt-2">
-                            <a class="nav-link" data-toggle="tab" href="#tab-4">
-                                <h4>Nostrum qui quasi</h4>
-                                <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End Featured Section -->
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-        <div class="container-fluid">
-
-            <div class="row">
-
-                <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-stretch">
-
-                    <div class="content" data-aos="fade-up">
-                        <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                        </p>
-                    </div>
-
-                    <div class="accordion-list">
-                        <ul>
-                            <li data-aos="fade-up" data-aos-delay="100">
-                                <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span> Non
-                                    consectetur a erat nam at lectus urna duis? <i
-                                        class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
-                                    <p>
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                        rhoncus dolor purus non.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span>
-                                    Feugiat scelerisque varius morbi enim nunc? <i
-                                        class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
-                                    <p>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span>
-                                    Dolor sit amet consectetur adipiscing elit? <i
-                                        class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
-                                    <p>
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                        suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                        convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </p>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-5 order-1 order-lg-2 align-items-stretch video-box"
-                    style='background-image: url("assets/img/why-us.jpg");' data-aos="zoom-in">
-                    <a href="https://www.youtube.com/watch?v=LIqQNG_q2us" class="venobox play-btn mb-4"
-                        data-vbtype="video" data-autoplay="true"></a>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Why Us Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg">
         <div class="container">
 
             <div class="section-title" data-aos="fade-up">
-                <h2>Portfolio</h2>
+                <h2>PRODUCT</h2>
                 <p>WE CAN PRINT UNIVERSE</p>
             </div>
 
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
-            </div>
+            <div class="row">
 
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177b6f517de%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177b6f517de%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22107.203125%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                            alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <h3>T-shirt</h3>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">Buy Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                    <div class="box recommended" data-aos="zoom-in">
+                        <span class="recommended-badge">Recommended</span>
+                        <h3>Business</h3>
+                        <h4><sup>$</sup>19<span> / month</span></h4>
+                        <ul>
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li>Pharetra massa</li>
+                            <li class="na">Massa ultricies mi</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn-buy">Buy Now</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery"
-                                    class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                        <h3>Developer</h3>
+                        <h4><sup>$</sup>29<span> / month</span></h4>
+                        <ul>
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li>Pharetra massa</li>
+                            <li>Massa ultricies mi</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn-buy">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -424,7 +191,7 @@
             </div>
 
         </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Pricing Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -601,75 +368,6 @@
 
         </div>
     </section><!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
-        <div class="container">
-
-            <div class="section-title" data-aos="fade-up">
-                <h2>Pricing</h2>
-                <p>WE CAN PRINT UNIVERSE</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                        <h3>Free</h3>
-                        <h4><sup>$</sup>0<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-                    <div class="box recommended" data-aos="zoom-in">
-                        <span class="recommended-badge">Recommended</span>
-                        <h3>Business</h3>
-                        <h4><sup>$</sup>19<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                        <h3>Developer</h3>
-                        <h4><sup>$</sup>29<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Pricing Section -->
-
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
         <div class="container">
