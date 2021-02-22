@@ -7,7 +7,7 @@
         <h1 data-aos="zoom-in" style="font-family: tw">JAGGS</h1>
         <h1 class="we" data-aos="fade-up">WE CAN PRINT UNIVERSE</h1>
         <h1 class="print" data-aos="fade-up" style="font-family: mr">Printing</h1>
-        <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">ORDER NOW</a>
+        <a data-aos="fade-up" href="#product" class="btn-get-started scrollto">ORDER NOW</a>
     </div>
 </section><!-- End Hero -->
 
@@ -24,11 +24,11 @@
             <ul class="nav-inner">
                 <li class="active"><a href="#about">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#pricing">Product</a></li>
+                <li><a href="#product">Product</a></li>
                 <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
                 </li>
-                <li><a href="#pricing">Customer</a></li>
-                <li><a href="#pricing">Team</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -124,7 +124,7 @@
         </div>
     </section><!-- End Services Section -->
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
+    <section id="product" class="pricing section-bg">
         <div class="container">
 
             <div class="section-title" data-aos="fade-up">
@@ -134,9 +134,9 @@
 
             <div class="row">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mt-3">
                     <div class="box">
-                        <img class="img-fluid" src="https://cdn-2.tstatic.net/tribunjatengwiki/foto/bank/images/rs-roemani-muhammadiyah-semarang.jpg" alt="">
+                        <img class="img-fluid product" src="https://cdn-2.tstatic.net/tribunjatengwiki/foto/bank/images/rs-roemani-muhammadiyah-semarang.jpg" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
                                 <h3>T-shirt</h3>
@@ -163,37 +163,89 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="box recommended" data-aos="zoom-in">
-                        <span class="recommended-badge">Recommended</span>
-                        <h3>Business</h3>
-                        <h4><sup>$</sup>19<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="box">
+                        <img class="img-fluid product" src="https://www.centrepoint.co.id/sites/default/files/2019-03/fun-fit_image_1.jpg" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>T-shirt</h3>
+                                <li>Cotton Combet 30s</li>
+                            </ul>
+                            <ul>
+                                <h3>Lengan</h3>
+                                <li>Lengan Pendek</li>
+                                <li>Lengan Panjang</li>
+                            </ul>
+                            <ul>
+                                <h3>Sablon</h3>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">SIZE CHART</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                        <h3>Developer</h3>
-                        <h4><sup>$</sup>29<span> / month</span></h4>
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
-                        </ul>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Buy Now</a>
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="box">
+                        <img class="img-fluid product" src="https://www.centrepoint.co.id/sites/default/files/2019-03/fun-fit_image_1.jpg" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>T-shirt</h3>
+                                <li>Cotton Combet 30s</li>
+                            </ul>
+                            <ul>
+                                <h3>Lengan</h3>
+                                <li>Lengan Pendek</li>
+                                <li>Lengan Panjang</li>
+                            </ul>
+                            <ul>
+                                <h3>Sablon</h3>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">SIZE CHART</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="box">
+                        <img class="img-fluid product" src="https://www.centrepoint.co.id/sites/default/files/2019-03/fun-fit_image_1.jpg" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>T-shirt</h3>
+                                <li>Cotton Combet 30s</li>
+                            </ul>
+                            <ul>
+                                <h3>Lengan</h3>
+                                <li>Lengan Pendek</li>
+                                <li>Lengan Panjang</li>
+                            </ul>
+                            <ul>
+                                <h3>Sablon</h3>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">SIZE CHART</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,7 +268,6 @@
                         Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
                         Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                     </p>
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                     <h3>Saul Goodman</h3>
                     <h4>Ceo &amp; Founder</h4>
                 </div>
@@ -226,7 +277,6 @@
                         Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
                         malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                     </p>
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                     <h3>Sara Wilsson</h3>
                     <h4>Designer</h4>
                 </div>
@@ -236,7 +286,6 @@
                         Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
                         minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                     </p>
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                     <h3>Jena Karlis</h3>
                     <h4>Store Owner</h4>
                 </div>
@@ -247,7 +296,6 @@
                         velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
                         veniam.
                     </p>
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                     <h3>Matt Brandon</h3>
                     <h4>Freelancer</h4>
                 </div>
@@ -258,7 +306,6 @@
                         culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
                         quid.
                     </p>
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                     <h3>John Larson</h3>
                     <h4>Entrepreneur</h4>
                 </div>
@@ -267,41 +314,6 @@
 
         </div>
     </section><!-- End Testimonials Section -->
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
-                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
-                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Clients Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -319,14 +331,11 @@
                         <div class="member-img">
                             <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
                                 <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Walter White</h4>
+                            <h4>Kevin Warouw</h4>
                             <span>Chief Executive Officer</span>
                             <p>Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente occaecati et
                                 dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis</p>
@@ -339,14 +348,11 @@
                         <div class="member-img">
                             <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
                                 <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
+                            <h4>Kevin Warouw</h4>
                             <span>Product Manager</span>
                             <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis
                                 aut. Libero vel amet voluptatem eos rerum non doloremque</p>
@@ -359,14 +365,11 @@
                         <div class="member-img">
                             <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
                                 <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>William Anderson</h4>
+                            <h4>Kevin Warouw</h4>
                             <span>CTO</span>
                             <p>Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui necessitatibus rerum
                                 eos vero. Maxime sit sunt quo dolor autem est qui quaerat</p>
@@ -567,16 +570,6 @@
                         commodi placeat.</p>
                 </div>
             </div>
-
-            <div class="row footer-newsletter justify-content-center">
-                <div class="col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" name="email" placeholder="Enter your Email"><input type="submit"
-                            value="Subscribe">
-                    </form>
-                </div>
-            </div>
-
             <div class="social-links">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

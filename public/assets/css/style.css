@@ -14,11 +14,11 @@ body {
 }
 
 a {
-    color: #7cc576;
+    color: #B8779B;
 }
 
 a:hover {
-    color: #9ed49a;
+    color: #8f5b78;
     text-decoration: none;
 }
 
@@ -50,14 +50,14 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background: #7cc576;
-    color: #fff;
+    background: #B8779B;
+    color: #6AE1D9;
     transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-    background: #61b959;
-    color: #fff;
+    background: #6AE1D9;
+    color: #B8779B;
 }
 
 /*--------------------------------------------------------------
@@ -153,7 +153,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #7cc576;
+    color: #B8779B;
     text-decoration: none;
 }
 
@@ -987,11 +987,11 @@ section {
 }
 
 .testimonials .quote-icon i {
-    color: #7cc576;
+    color: #B8779B;
     font-size: 24px;
     padding: 18px;
     border-radius: 50px;
-    border: 2px solid #7cc576;
+    border: 2px solid #B8779B;
 }
 
 .testimonials .testimonial-item {
@@ -1003,25 +1003,19 @@ section {
     font-style: italic;
     margin: 0 auto 30px auto;
     font-size: 20px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-    width: 100px;
-    border-radius: 50%;
-    border: 6px solid rgba(255, 255, 255, 0.15);
-    margin: 0 auto;
+    color: #6AE1D9;
 }
 
 .testimonials .testimonial-item h3 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #fff;
+    color: #6AE1D9;
 }
 
 .testimonials .testimonial-item h4 {
     font-size: 14px;
-    color: #ddd;
+    color: #6AE1D9;
     margin: 0 0 15px 0;
 }
 
@@ -1041,7 +1035,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-    background-color: #7cc576 !important;
+    background-color: #B8779B !important;
 }
 
 @media (min-width: 1024px) {
@@ -1118,7 +1112,7 @@ section {
     opacity: 0;
     transition: bottom ease-in-out 0.4s;
     text-align: center;
-    background: rgba(124, 197, 118, 0.8);
+    background: rgba(184, 119, 155, 0.8);
 }
 
 .team .member .social a {
@@ -1130,7 +1124,7 @@ section {
 }
 
 .team .member .social a:hover {
-    color: #7cc576;
+    color: #6AE1D9;
 }
 
 .team .member .social i {
@@ -1150,7 +1144,7 @@ section {
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 15px;
-    color: #7cc576;
+    color: #B8779B;
 }
 
 .team .member .member-info p {
@@ -1312,6 +1306,7 @@ section {
     line-height: 24px;
     font-weight: 400;
     padding-right: 25px;
+    transition: 0.5s;
 }
 
 .faq .faq-list i {
@@ -1335,7 +1330,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-    color: #7cc576;
+    color: #B8779B;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1359,11 +1354,11 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    color: #7cc576;
+    color: #B8779B;
     float: left;
     width: 44px;
     height: 44px;
-    background: #eaf6e9;
+    background: #6AE1D9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1394,8 +1389,8 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: #7cc576;
-    color: #fff;
+    background: #B8779B;
+    color: #6AE1D9;
 }
 
 .contact .php-email-form {
@@ -1475,16 +1470,16 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #7cc576;
+    background: #6AE1D9;
     border: 0;
     padding: 10px 24px;
-    color: #fff;
+    color: #B8779B;
     transition: 0.4s;
     border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #61b959;
+    background: #5cc7c0;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1769,4 +1764,11 @@ section {
     text-align: center;
     font-size: 13px;
     padding-top: 5px;
+}
+
+
+/* satrio */
+img.img-fluid.product{
+    object-fit: cover;
+    height: 300px;
 }
