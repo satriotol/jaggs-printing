@@ -1,41 +1,19 @@
 @extends('layouts.app')
-@section('content')
+@section('banner')
+
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container">
         {{-- <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt=""></a> --}}
         <h1 data-aos="zoom-in" style="font-family: tw">JAGGS</h1>
-        <h1 class="we" data-aos="fade-up">WE CAN PRINT UNIVERSE</h1>
+        <h1 class="we" data-aos="fade-up">WE CAN PRINT THE UNIVERSE</h1>
         <h1 class="print" data-aos="fade-up" style="font-family: mr">Printing</h1>
         <a data-aos="fade-up" href="#product" class="btn-get-started scrollto">ORDER NOW</a>
     </div>
 </section><!-- End Hero -->
+@endsection
+@section('content')
 
-<!-- ======= Header ======= -->
-<header id="header" class="d-flex align-items-center">
-    <div class="container">
-
-        <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
-        <div class="logo d-block d-lg-none">
-            <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-        </div>
-
-        <nav class="nav-menu d-none d-lg-block">
-            <ul class="nav-inner">
-                <li class="active"><a href="#about">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#product">Product</a></li>
-                <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-                </li>
-                <li><a href="#testimonials">Testimonial</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-        </nav><!-- .nav-menu -->
-
-    </div>
-</header><!-- End Header -->
 
 <main id="main">
 
@@ -45,7 +23,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>About Us</h2>
-                <p>WE CAN PRINT UNIVERSE</p>
+                <p>WE CAN PRINT THE UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -91,7 +69,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Services</h2>
-                <p>WE CAN PRINT UNIVERSE</p>
+                <p>WE CAN PRINT THE UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -129,14 +107,44 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>PRODUCT</h2>
-                <p>WE CAN PRINT UNIVERSE</p>
+                <p>WE CAN PRINT THE UNIVERSE</p>
             </div>
 
-            <div class="row">
-
-                <div class="col-lg-4 col-md-6 mt-3">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
-                        <img class="img-fluid product" src="https://cdn-2.tstatic.net/tribunjatengwiki/foto/bank/images/rs-roemani-muhammadiyah-semarang.jpg" alt="">
+                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>T-shirt</h3>
+                                <li>Cotton Combet 30s</li>
+                            </ul>
+                            <ul>
+                                <h3>Lengan</h3>
+                                <li>Lengan Pendek</li>
+                                <li>Lengan Panjang</li>
+                            </ul>
+                            <ul>
+                                <h3>Sablon</h3>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">SIZE CHART</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                </div>
+
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
                                 <h3>T-shirt</h3>
@@ -163,9 +171,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mt-3">
+                <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
-                        <img class="img-fluid product" src="https://www.centrepoint.co.id/sites/default/files/2019-03/fun-fit_image_1.jpg" alt="">
+                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
                                 <h3>T-shirt</h3>
@@ -192,38 +200,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mt-3">
-                    <div class="box">
-                        <img class="img-fluid product" src="https://www.centrepoint.co.id/sites/default/files/2019-03/fun-fit_image_1.jpg" alt="">
-                        <div data-aos="zoom-in" data-aos-delay="100">
-                            <ul>
-                                <h3>T-shirt</h3>
-                                <li>Cotton Combet 30s</li>
-                            </ul>
-                            <ul>
-                                <h3>Lengan</h3>
-                                <li>Lengan Pendek</li>
-                                <li>Lengan Panjang</li>
-                            </ul>
-                            <ul>
-                                <h3>Sablon</h3>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">SIZE CHART</a>
-                            </div>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">ORDER NOW</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-auto">
                 </div>
 
-                <div class="col-lg-4 col-md-6 mt-3">
+                <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
-                        <img class="img-fluid product" src="https://www.centrepoint.co.id/sites/default/files/2019-03/fun-fit_image_1.jpg" alt="">
+                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
                                 <h3>T-shirt</h3>
@@ -321,7 +303,7 @@
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Team</h2>
-                <p>WE CAN PRINT UNIVERSE</p>
+                <p>WE CAN PRINT THE UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -329,9 +311,11 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="zoom-in">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('img/warouw.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="icofont-instagram"></i></a>
+                                <a href=""><i class="icofont-brand-whatsapp"></i></a>
+
                             </div>
                         </div>
                         <div class="member-info">
@@ -346,7 +330,7 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="zoom-in" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('img/warouw.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="icofont-instagram"></i></a>
                             </div>
@@ -363,7 +347,7 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="zoom-in" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('img/warouw.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="icofont-instagram"></i></a>
                             </div>
@@ -483,7 +467,7 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>WE CAN PRINT UNIVERSE</p>
+                <p>WE CAN PRINT THE UNIVERSE</p>
             </div>
 
             <div class="row">
@@ -565,17 +549,15 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <a href="#header" class="scrollto footer-logo"><img src="assets/img/hero-logo.png" alt=""></a>
-                    <h3>Knight</h3>
-                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe
-                        commodi placeat.</p>
+                    <h3>WE CAN PRINT THE UNIVERSE</h3>
                 </div>
             </div>
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> --}}
+                <a href="https://www.instagram.com/jaggs.printing/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
 
         </div>
@@ -583,14 +565,7 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>Knight</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-free-bootstrap-theme/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            &copy; Copyright <strong><span>JAGGS {{ now()->year }}</span></strong>. All Rights Reserved
         </div>
     </div>
 </footer><!-- End Footer -->

@@ -240,7 +240,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-    color: #7cc576;
+    color: #B8779B;
 }
 
 .mobile-nav {
@@ -277,7 +277,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #7cc576;
+    color: #B8779B;
     text-decoration: none;
 }
 
@@ -413,10 +413,17 @@ h6 {
 
 @media (max-width: 768px) {
     #hero h1 {
-        font-size: 28px;
+        font-size: 40px;
         line-height: 36px;
     }
 
+    #hero h1.we{
+        font-size: 20px;
+    }
+    #hero h1.print {
+        font-size: 60px;
+        line-height: 36px;
+    }
     #hero h2 {
         line-height: 22px;
     }
@@ -1479,7 +1486,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #5cc7c0;
+    background: #B8779B;
+    color: #6AE1D9;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1730,8 +1738,8 @@ section {
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #7cc576;
-    color: #fff;
+    background: #B8779B;
+    color: #6AE1D9;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -1743,8 +1751,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-    background: #5ab652;
-    color: #fff;
+    background: #6AE1D9;
+    color: #B8779B;
     text-decoration: none;
 }
 
@@ -1768,7 +1776,18 @@ section {
 
 
 /* satrio */
+/* product */
 img.img-fluid.product{
     object-fit: cover;
     height: 300px;
+    width: 100%;
 }
+/* end of product */
+
+/* team */
+.member-img img.img-fluid {
+    height: 370px;
+    width: 370px;
+    object-fit: cover;
+}
+/* end of team */

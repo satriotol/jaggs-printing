@@ -29,25 +29,50 @@
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <style>
-        @font-face{
+        @font-face {
             font-family: 'mr';
             src: url('{{ asset('font/mr.ttf') }}');
         }
-        @font-face{
+
+        @font-face {
             font-family: 'tw';
             src: url('{{ asset('font/tw.ttf') }}');
         }
+
     </style>
 
-    <!-- =======================================================
-  * Template Name: Knight - v2.2.1
-  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
+    @yield('banner')
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container">
+
+            <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
+            <div class="logo d-block d-lg-none">
+                <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            </div>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul class="nav-inner">
+                    <li class="active"><a href="#about">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt=""
+                                class="img-fluid"></a>
+                    </li>
+                    <li><a href="#testimonials">Testimonial</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
     @yield('content')
     <!-- Vendor JS Files -->
     <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
