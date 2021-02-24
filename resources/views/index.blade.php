@@ -477,19 +477,19 @@
                         <div class="address">
                             <i class="icofont-google-map"></i>
                             <h4>Location:</h4>
-                            <p>A108 Adam Street,<br>New York, NY 535022</p>
+                            <p>Semarang,Indonesia</p>
                         </div>
 
                         <div class="email">
                             <i class="icofont-envelope"></i>
                             <h4>Email:</h4>
-                            <p>info@example.com</p>
+                            <p>jaggs.printing@gmail.com</p>
                         </div>
 
                         <div class="phone">
                             <i class="icofont-phone"></i>
                             <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
+                            <p>+6282323358515</p>
                         </div>
 
                     </div>
