@@ -13,4 +13,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::resource('/',HomeController::class);
+Route::resource('/', IndexController::class);
+// Route::resource('/',IndexController::class);
+
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
+
+Route::get('/home', 'HomeController@index')->name('home');
