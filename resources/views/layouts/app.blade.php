@@ -51,7 +51,7 @@
 
             <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
             <div class="logo d-block d-lg-none">
-                <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+                <a href="#"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
 
             <nav class="nav-menu d-none d-lg-block">
@@ -59,7 +59,7 @@
                     <li class="active"><a href="#about">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#product">Product</a></li>
-                    <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt=""
+                    <li class="nav-logo"><a href="#"><img src="assets/img/logo.png" alt=""
                                 class="img-fluid"></a>
                     </li>
                     <li><a href="#testimonials">Testimonial</a></li>
