@@ -29,33 +29,35 @@
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="image">
-                        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('gambar/aboutus/about.jpg')}}" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
-                        <h3>Voluptatem dignissimos provident quasi corporis</h3>
+                        <p>JAGGS Printing lahir di kota Semarang pada tahun 2020. Kami merupakan sebuah perusahaan
+                            penyedia jasa percetakan dengan kualitas terbaik dan teratas dikelasnya. Kami mengajak anda
+                            untuk mulai bangga dengan design original anda masing-masing dan menyediakan jasa yang dapat
+                            mencetak design tersebut dalam produk yang kami miliki, dengan kuantitas pemesanan mulai
+                            dari satuan. Jasa yang kami tawarkan dapat membebaskan anda dari keterbatasan jumlah minimum
+                            pemesanan dan design suatu produk yang anda inginkan. Dikala banyaknya usaha percetakan yang
+                            terbatas dengan adanya jumlah minimum pemesanan, JAGGS Printing hadir dengan inovasi baru
+                            sebagai solusinya.</p>
+                        <h3>Visi</h3>
                         <p class="font-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
-                        </p>
+                            JAGGS Printing ingin memberikan sarana bagi semua orang yang ingin mengaplikasikan
+                            kreativitas design original mereka kedalam bentuk produk yang kami sediakan sesuai dengan
+                            semboyan kami "we can print the universe" </p>
+                        <h3>Misi</h3>
                         <ul>
-                            <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</li>
-                            <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate
-                                velit.</li>
-                            <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
-                                mastiro dolore eu fugiat nulla pariatur.</li>
+                            <li><i class="bx bx-check-double"></i> JAGGS Printing berfokus pada proses pencetakan
+                                berkualitas atas produk-produk yang kami tawarkan </li>
+                            <li><i class="bx bx-check-double"></i> Menjadi wadah bagi individu yang ingin menggunakan
+                                produk yang diminati dengan design originalnya sendiri </li>
+                            <li><i class="bx bx-check-double"></i> Menjadi solusi atas permasalahan jumlah minimum
+                                pemesanan produk yang kerap ditemui di perusahaan percetakan lain </li>
+                            <li><i class="bx bx-check-double"></i> Menanamkan nilai kebanggaan atas produk lokal dengan
+                                design original pelanggan yang telah dipercayakan kepada kami</li>
                         </ul>
-                        <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum
-                        </p>
                     </div>
                 </div>
             </div>
@@ -66,37 +68,38 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
         <div class="container">
-
             <div class="section-title" data-aos="fade-up">
                 <h2>Services</h2>
                 <p>WE CAN PRINT THE UNIVERSE</p>
             </div>
-
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up">
                         <i class="bx bx-receipt"></i>
-                        <h4>Est labore ad</h4>
-                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        <h4>Tidak ada minimum order</h4>
+                        <p>pemesanan dapat dilakukan dari minimum 1pcs</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-cube-alt"></i>
-                        <h4>Harum esse qui</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        <i class="bx bx-images"></i>
+                        <h4>Free design</h4>
+                        <p>pemesan dapat mengutarakan keinginan atas desain produk yang diharapkan, dan kami akan
+                            menambahkan sentuhan kami di desain produk tersebut sesuai dengan kesepakatan, dan syarat
+                            yang telah disetujui. Max revisi 3x</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bx bx-images"></i>
-                        <h4>Aut occaecati</h4>
-                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                        <i class="bx bx-cube-alt"></i>
+                        <h4>Free ongkir</h4>
+                        <p>Bagi pemesan yang berdomisili di Kota Semarang, Jawa Tengah tidak dikenakan biaya kirim</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
                         <i class="bx bx-shield"></i>
-                        <h4>Beatae veritatis</h4>
-                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        <h4>Cepat</h4>
+                        <p>Proses pembuatan produk yang singkat, dalam kurun waktu 3-7 hari</p>
                     </div>
                 </div>
-                <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/services.jpg");'
-                    data-aos="fade-left" data-aos-delay="100"></div>
+                <div class="image col-lg-6 order-1 order-lg-2"
+                    style='background-image: url("{{asset('gambar/service/service.jpg')}}");' data-aos="fade-left"
+                    data-aos-delay="100"></div>
             </div>
 
         </div>
@@ -113,56 +116,40 @@
             <div class="row justify-content-md-center">
                 <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
-                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
+                        <img class="img-fluid product" src="{{asset('gambar/product/shortsleeve.png')}}" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
-                                <h3>T-shirt</h3>
-                                <li>Cotton Combet 30s</li>
+                                <h3>T-shirt Short Sleeve</h3>
+                                <h2>55k</h2>
+                                <li>COTTON COMBED 30S</li>
                             </ul>
                             <ul>
-                                <h3>Lengan</h3>
-                                <li>Lengan Pendek</li>
-                                <li>Lengan Panjang</li>
-                            </ul>
-                            <ul>
-                                <h3>Sablon</h3>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 47 cm x 67 cm
+                                </li>
+                                <li>
+                                    M: 49 cm x 69 cm
+                                </li>
+                                <li>
+                                    L: 51 cm x 71 cm
+                                </li>
+                                <li>
+                                    XL: 53 cm x 73 cm
+                                </li>
+                                <li>
+                                    XXL: 55 cm x 73 cm
+                                </li>
+                                <li>
+                                    3XL: 60 cm x 78 cm
+                                </li>
+                                <li>
+                                    4XL: 65 cm x 81 cm
+                                </li>
                             </ul>
                             <div class="btn-wrap">
-                                <a href="#" class="btn-buy">SIZE CHART</a>
-                            </div>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">ORDER NOW</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-auto">
-                </div>
-
-                <div class="col-lg-4 col-md-12 mt-5">
-                    <div class="box">
-                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
-                        <div data-aos="zoom-in" data-aos-delay="100">
-                            <ul>
-                                <h3>T-shirt</h3>
-                                <li>Cotton Combet 30s</li>
-                            </ul>
-                            <ul>
-                                <h3>Lengan</h3>
-                                <li>Lengan Pendek</li>
-                                <li>Lengan Panjang</li>
-                            </ul>
-                            <ul>
-                                <h3>Sablon</h3>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">SIZE CHART</a>
+                                <a href="#" class="btn-buy">PRICE LIST</a>
                             </div>
                             <div class="btn-wrap">
                                 <a href="#" class="btn-buy">ORDER NOW</a>
@@ -173,57 +160,75 @@
 
                 <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
-                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
+                        <img class="img-fluid product" src="{{asset('gambar/product/longsleeve.jpeg')}}" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
-                                <h3>T-shirt</h3>
-                                <li>Cotton Combet 30s</li>
+                                <h3>T-shirt Long Sleeve</h3>
+                                <h2>65k</h2>
+                                <li>COTTON COMBED 30S</li>
                             </ul>
                             <ul>
-                                <h3>Lengan</h3>
-                                <li>Lengan Pendek</li>
-                                <li>Lengan Panjang</li>
-                            </ul>
-                            <ul>
-                                <h3>Sablon</h3>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 48 cm x 64 cm
+                                </li>
+                                <li>
+                                    M: 50 cm x 70 cm
+                                </li>
+                                <li>
+                                    L: 51 cm x 72 cm
+                                </li>
+                                <li>
+                                    XL: 52 cm x 73 cm
+                                </li>
+                                <li>
+                                    XXL: 53 cm x 78 cm
+                                </li>
                             </ul>
                             <div class="btn-wrap">
-                                <a href="#" class="btn-buy">SIZE CHART</a>
+                                <a href="#" class="btn-buy">PRICE LIST</a>
                             </div>
                             <div class="btn-wrap">
                                 <a href="#" class="btn-buy">ORDER NOW</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-auto">
                 </div>
 
                 <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
-                        <img class="img-fluid product" src="{{asset('img/tshirt.png')}}" alt="">
+                        <img class="img-fluid product" src="{{asset('gambar/product/shortsleeve.png')}}" alt="">
                         <div data-aos="zoom-in" data-aos-delay="100">
                             <ul>
-                                <h3>T-shirt</h3>
-                                <li>Cotton Combet 30s</li>
+                                <h3>T-shirt Anak</h3>
+                                <h2>45k</h2>
+                                <li>COTTON COMBED 30S</li>
                             </ul>
                             <ul>
-                                <h3>Lengan</h3>
-                                <li>Lengan Pendek</li>
-                                <li>Lengan Panjang</li>
-                            </ul>
-                            <ul>
-                                <h3>Sablon</h3>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    2: 47 cm x 67 cm
+                                </li>
+                                <li>
+                                    4: 49 cm x 69 cm
+                                </li>
+                                <li>
+                                    6: 51 cm x 71 cm
+                                </li>
+                                <li>
+                                    8: 53 cm x 73 cm
+                                </li>
+                                <li>
+                                    10: 55 cm x 73 cm
+                                </li>
+                                <li>
+                                    12: 60 cm x 78 cm
+                                </li>
                             </ul>
                             <div class="btn-wrap">
-                                <a href="#" class="btn-buy">SIZE CHART</a>
+                                <a href="#" class="btn-buy">PRICE LIST</a>
                             </div>
                             <div class="btn-wrap">
                                 <a href="#" class="btn-buy">ORDER NOW</a>
@@ -232,6 +237,330 @@
                     </div>
                 </div>
 
+
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/sweaterhigh.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Sweater Premium</h3>
+                                <h2>135k</h2>
+                                <li>FLEECE PE</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 45 cm x 60 cm
+                                </li>
+                                <li>
+                                    M: 54 cm x 60 cm
+                                </li>
+                                <li>
+                                    L: 57 cm x 61 cm
+                                </li>
+                                <li>
+                                    XL: 58 cm x 66 cm
+                                </li>
+                                <li>
+                                    XXL: 63 cm x 67 cm
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/sweaterpremium.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Sweater High Grade</h3>
+                                <h2>250K</h2>
+                                <li>50% COTTON / 50% POLYESTER 270G</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 45 cm x 60 cm
+                                </li>
+                                <li>
+                                    M: 54 cm x 60 cm
+                                </li>
+                                <li>
+                                    L: 57 cm x 61 cm
+                                </li>
+                                <li>
+                                    XL: 58 cm x 66 cm
+                                </li>
+                                <li>
+                                    XXL: 63 cm x 67 cm
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/hoodie.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Hoodie Standard</h3>
+                                <h2>100K</h2>
+                                <li>COTTON</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 45 cm x 60 cm
+                                </li>
+                                <li>
+                                    M: 54 cm x 60 cm
+                                </li>
+                                <li>
+                                    L: 57 cm x 61 cm
+                                </li>
+                                <li>
+                                    XL: 58 cm x 66 cm
+                                </li>
+                                <li>
+                                    XXL: 63 cm x 67 cm
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/hoodie.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Hoodie Premium</h3>
+                                <h2>135K</h2>
+                                <li>FULL PE 30S (PE = POLYETHYLENE)</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 45 cm x 60 cm
+                                </li>
+                                <li>
+                                    M: 54 cm x 60 cm
+                                </li>
+                                <li>
+                                    L: 57 cm x 61 cm
+                                </li>
+                                <li>
+                                    XL: 58 cm x 66 cm
+                                </li>
+                                <li>
+                                    XXL: 63 cm x 67 cm
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/hoodie.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Hoodie Grade ECO</h3>
+                                <h2>175K</h2>
+                                <li>50% COTTON / 50% POLYESTER 270G</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>Width x Height</li>
+                                <li>
+                                    S: 52 cm x 63 cm
+                                </li>
+                                <li>
+                                    M: 56 cm x 65 cm
+                                </li>
+                                <li>
+                                    L: 58 cm x 68 cm
+                                </li>
+                                <li>
+                                    XL: 64 cm x 70 cm
+                                </li>
+                                <li>
+                                    XXL: 68 cm x 71 cm
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/hoodie.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Hoodie High Grade</h3>
+                                <h2>250K</h2>
+                                <li>50% COTTON / 50% POLYESTER 270G</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>Width X Height</li>
+                                <li>
+                                    S: 51 cm x 65 cm
+                                </li>
+                                <li>
+                                    M: 53 cm x 67 cm
+                                </li>
+                                <li>
+                                    L: 56 cm x 70 cm
+                                </li>
+                                <li>
+                                    XL: 61 cm x 73 cm
+                                </li>
+                                <li>
+                                    XXL: 63 cm x 67 cm
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/Baseball.png')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Baseball Cap</h3>
+                                <h2>35K</h2>
+                                <li>RAFEL & DRILL</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>
+                                    ALL SIZE
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/Trucker.jpg')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Trucker Cap</h3>
+                                <h2>25K</h2>
+                                <li>LOTTO</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>
+                                    ALL SIZE
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/Snapback.jpg')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Snapback</h3>
+                                <h2>35K</h2>
+                                <li>POLYCANVAS</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>
+                                    ALL SIZE
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('gambar/product/buckethat.jpg')}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>Bucket Hat</h3>
+                                <h2>50K</h2>
+                                <li>TWILL</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                <li>
+                                    ALL SIZE
+                                </li>
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -247,49 +576,43 @@
 
                 <div class="testimonial-item">
                     <p>
-                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        desain apapun yg ada dipikiranmu bisa terealisasikan dengan jaggs. karena jaggs can print the
+                        universe !! kualitas no 1. recoment !!
                     </p>
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <h3>Krama Ramadhan</h3>
+                    {{-- <h4>Ceo &amp; Founder</h4> --}}
                 </div>
 
                 <div class="testimonial-item">
                     <p>
-                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
-                        malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                        Keren banget design kaos di JAGGS Printing, recommended paling bisa!
                     </p>
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
+                    <h3>Naufal Ridho M</h3>
+                    {{-- <h4>Designer</h4> --}}
                 </div>
 
                 <div class="testimonial-item">
                     <p>
-                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                        minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        Keren banget dab pokoknya, yuk yang mau bikin jaket custom bisa kepoin JAGGS Printing!
                     </p>
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
+                    <h3>Amar</h3>
+                    {{-- <h4>Store Owner</h4> --}}
                 </div>
 
                 <div class="testimonial-item">
                     <p>
-                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                        velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
-                        veniam.
+                        Bener-bener definisi kaos yang nyaman banget buat dipake. Apalagi dengan design kaos semau kamu,
+                        otomatis kamu bisa menuangkan ide dan sekaligus mengapresiasi diri akan karya yang pengen kamu
+                        tuangkan ke baju dari JAGGS Printing
                     </p>
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
+                    <h3>Novrizal</h3>
                 </div>
 
                 <div class="testimonial-item">
                     <p>
-                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                        culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                        quid.
-                    </p>
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
+                        nilai 10 lah gila aja. suka banget-banget, dingin gitu lagi bahannya!
+                        <h3>Jilan Nabilah</h3>
+                        {{-- <h4>Entrepreneur</h4> --}}
                 </div>
 
             </div>
@@ -314,15 +637,15 @@
                             <img src="{{asset('img/warouw.png')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-brand-whatsapp"></i></a>
+                                {{-- <a href=""><i class="icofont-brand-whatsapp"></i></a> --}}
 
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Kevin Warouw</h4>
-                            <span>Chief Executive Officer</span>
-                            <p>Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente occaecati et
-                                dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis</p>
+                            <h4>GIOVANI KEVIN NICOLAAS WAROUW</h4>
+                            <span>CEO JAGGS PRINTING</span>
+                            {{-- <p>Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente occaecati et
+                                dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis</p> --}}
                         </div>
                     </div>
                 </div>
@@ -330,16 +653,16 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="zoom-in" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="{{asset('img/warouw.png')}}" class="img-fluid" alt="">
+                            <img src="{{asset('img/bagas.jpg')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="icofont-instagram"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Kevin Warouw</h4>
-                            <span>Product Manager</span>
-                            <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis
-                                aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+                            <h4>BAGAS PANGESTU PRIBADI</h4>
+                            <span>FOUNDER</span>
+                            {{-- <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis
+                                aut. Libero vel amet voluptatem eos rerum non doloremque</p> --}}
                         </div>
                     </div>
                 </div>
@@ -347,16 +670,16 @@
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="zoom-in" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="{{asset('img/warouw.png')}}" class="img-fluid" alt="">
+                            <img src="{{asset('img/ijul.jpeg')}}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href=""><i class="icofont-instagram"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Kevin Warouw</h4>
-                            <span>CTO</span>
-                            <p>Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui necessitatibus rerum
-                                eos vero. Maxime sit sunt quo dolor autem est qui quaerat</p>
+                            <h4>ZULFIKAR MUHAMMAD</h4>
+                            <span>FOUNDER</span>
+                            {{-- <p>Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui necessitatibus rerum
+                                eos vero. Maxime sit sunt quo dolor autem est qui quaerat</p> --}}
                         </div>
                     </div>
                 </div>
@@ -376,86 +699,69 @@
             <ul class="faq-list">
 
                 <li data-aos="fade-up">
-                    <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna
-                        duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+                    <a data-toggle="collapse" class="collapsed" href="#faq1">Berapa lama waktu yang dibutuhkan dari
+                        awal pemesanan produk hingga sampai di alamat tujuan? <i
+                            class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
                     <div id="faq1" class="collapse" data-parent=".faq-list">
                         <p>
-                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                            curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                        </p>
+                            Setiap produk yang kami tawarkan dapat memakan waktu 2 sampai 7 hari agar produk tersebut
+                            sampai ditangan pemesan. <br>
+                            Hal ini bergantung pada jumlah produk, kesulitan design produk, jarak lokasi pemesan. <br>
+                            Pemesan akan mendapatkan pemberitahuan terlebih dahulu bila barang yang telah dipesan akan
+                            memakan waktu lebih dari 7 hari agar sampai di tujuan </p>
                     </div>
                 </li>
-
                 <li data-aos="fade-up" data-aos-delay="100">
-                    <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc
-                        faucibus a pellentesque? <i class="bx bx-chevron-down icon-show"></i><i
-                            class="bx bx-x icon-close"></i></a>
+                    <a data-toggle="collapse" href="#faq2" class="collapsed">Bagaimana cara pemesanan produk yang
+                        diinginkan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
                     <div id="faq2" class="collapse" data-parent=".faq-list">
                         <p>
-                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                            laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
-                            Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
-                            tincidunt dui.
+                            Pemesanan produk dapat dilakukan melalui WhatsApp yang telah dicantumkan di laman Instagram
+                            JAGGS.Printing serta Website kami printing.jaggs.id <br>
+                            pemesanan akan dilayani secara langsung oleh admin yang bersangkutan. <br>
+                            Untuk informasi lebih lanjut mengenai detail pemesanan produk yang berkaitan dapat
+                            didapatkan melalui WhatsApp kami
                         </p>
                     </div>
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="200">
-                    <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit
-                        pellentesque habitant morbi? <i class="bx bx-chevron-down icon-show"></i><i
+                    <a data-toggle="collapse" href="#faq3" class="collapsed">Bagaimana cara menentukan rincian harga
+                        atas produk JAGGS Printing yang akan dipesan?<i class="bx bx-chevron-down icon-show"></i><i
                             class="bx bx-x icon-close"></i></a>
                     <div id="faq3" class="collapse" data-parent=".faq-list">
                         <p>
-                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                            elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                            pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at
-                            elementum eu facilisis sed odio morbi quis
+                            Rincian harga dapat dilihat di katalog kami yang akan diberikan via WhatsApp serta website
+                            kami di printing.jaggs.id <br>
+                            Total harga atas produk yang dipesan merupakan penjumlahan dari harga produk tanpa design,
+                            biaya pencetakan design yang diinginkan (dapat dilihat di price list kami), serta biaya
+                            pengantaran barang bagi pemesan yang berdomisili di luar kota semarang.
                         </p>
                     </div>
                 </li>
-
                 <li data-aos="fade-up" data-aos-delay="300">
-                    <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam
-                        eleifend mi in nulla? <i class="bx bx-chevron-down icon-show"></i><i
-                            class="bx bx-x icon-close"></i></a>
+                    <a data-toggle="collapse" href="#faq4" class="collapsed">Apakah ada batasan atas design yang dapat
+                        dipesan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
                     <div id="faq4" class="collapse" data-parent=".faq-list">
                         <p>
-                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                            laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
-                            Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
-                            tincidunt dui.
+                            Kami tidak memberikan batasan atas design yang dapat kami cetak. Namun, pemesan harus
+                            terlebih dulu menyediakan mock up atas design yang ingin dicetak dalam bentuk file .PNG
+                            kualitas terbaik, yang kemudian dapat dikirimkan ke email kami jaggs.printing@gmail.com <br>
+                            info lebih lanjut dapat ditanyakan via WhatsApp
                         </p>
                     </div>
                 </li>
 
                 <li data-aos="fade-up" data-aos-delay="400">
-                    <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam
-                        sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i
-                            class="bx bx-x icon-close"></i></a>
+                    <a data-toggle="collapse" href="#faq5" class="collapsed">Apakah pembayaran dilakukan di awal
+                        pemesanan atau di akhir saat barang sudah diterima? <i
+                            class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
                     <div id="faq5" class="collapse" data-parent=".faq-list">
                         <p>
-                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                            ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                            bibendum est. Purus gravida quis blandit turpis cursus in
+                            Pembayaran atas produk yang dipesan dapat dilakukan di awal pemesanan produk tersebut.
                         </p>
                     </div>
                 </li>
-
-                <li data-aos="fade-up" data-aos-delay="500">
-                    <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius
-                        vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i
-                            class="bx bx-x icon-close"></i></a>
-                    <div id="faq6" class="collapse" data-parent=".faq-list">
-                        <p>
-                            Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer
-                            malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem
-                            dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat
-                            commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non
-                            blandit massa enim nec.
-                        </p>
-                    </div>
-                </li>
-
             </ul>
 
         </div>
@@ -555,7 +861,12 @@
             <div class="social-links">
                 {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> --}}
-                <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
+                        class="bx bxl-instagram"></i></a>
+                <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
+                        class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
+                        class="bx bxl-envelope"></i></a>
                 {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
