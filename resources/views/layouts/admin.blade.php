@@ -51,7 +51,7 @@
                         <img src="{{asset('dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">{{ Auth::user()->name }}</a>
                     </div>
                 </div>
 
@@ -69,32 +69,9 @@
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-running"></i>
-                                <p>
-                                    Lomba
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="{{route('admin.index')}}" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>List Lomba</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{route('admin.index')}}" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Tambah Lomba</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-list-alt"></i>
                                 <p>
-                                    Kategori
+                                    Product
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -102,13 +79,13 @@
                                 <li class="nav-item">
                                     <a href="{{route('admin.index')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>List Kategori</p>
+                                        <p>List Product</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{route('admin.index')}}" class="nav-link">
+                                    <a href="{{route('product.create')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Tambah Kategori</p>
+                                        <p>Add Product</p>
                                     </a>
                                 </li>
                             </ul>
@@ -201,6 +178,7 @@
     <script src="{{asset('dist/js/pages/dashboard.js')}}"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="{{asset('dist/js/demo.js')}}"></script>
+    @yield('script')
 </body>
 
 </html>

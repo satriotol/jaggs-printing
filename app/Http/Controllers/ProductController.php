@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CreateProductRequest;
 use App\Product;
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +15,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $product = Product::all();
-        return view('index')->with('products',$product);
+        //
     }
 
     /**
@@ -25,7 +25,7 @@ class IndexController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.product.create');
     }
 
     /**
@@ -34,9 +34,23 @@ class IndexController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CreateProductRequest $request)
     {
-        //
+        $image = $request->image->store('public/products');
+        $price_list = $request->price_list->store('public/products');
+        $color = $request->color->store('public/products');
+        Product::create([
+            'title' => $request->title,
+            'price' => $request->price,
+            'material' => $request->material,
+            'size' => $request->size,
+            'image' => $image,
+            'price_list' => $price_list,
+            'color' => $color
+        ]);
+        session()->flash('success','Product Create Successfully');
+        return redirect(route('admin.index'));
+
     }
 
     /**

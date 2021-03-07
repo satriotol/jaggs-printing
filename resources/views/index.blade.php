@@ -114,6 +114,33 @@
             </div>
 
             <div class="row justify-content-md-center">
+                @foreach ($products as $product)
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="box">
+                        <img class="img-fluid product" src="{{asset('storage/'.$product->image)}}" alt="">
+                        <div data-aos="zoom-in" data-aos-delay="100">
+                            <ul>
+                                <h3>{{$product->title}}</h3>
+                                <h2>{{$product->price}}k</h2>
+                                <li>COTTON COMBED 30S</li>
+                            </ul>
+                            <ul>
+                                <h3>SIZE</h3>
+                                {!!$product->size!!}
+                            </ul>
+                            <div class="btn-wrap">
+                                <a href="{{asset('storage/'.$product->price_list)}}" class="btn-buy">PRICE LIST</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="{{asset($product->color)}}" class="btn-buy">COLOUR</a>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="{{asset($product->price_list)}}" class="btn-buy">ORDER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
                 <div class="col-lg-4 col-md-12 mt-5">
                     <div class="box">
                         <img class="img-fluid product" src="{{asset('gambar/product/shortsleeve.png')}}" alt="">

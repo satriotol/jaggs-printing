@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -23,6 +24,7 @@ Auth::routes([
 Route::get('/', 'IndexController@index')->name('home');
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/admin', 'AdminController@index')->name('admin.index');
+    Route::resource('/admin/product','ProductController');
 });
 // Route::resource('/', IndexController::class);
 
