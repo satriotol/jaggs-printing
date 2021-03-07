@@ -152,6 +152,9 @@
                                 <a href="#" class="btn-buy">PRICE LIST</a>
                             </div>
                             <div class="btn-wrap">
+                                <a href="#" class="btn-buy">COLOUR</a>
+                            </div>
+                            <div class="btn-wrap">
                                 <a href="#" class="btn-buy">ORDER NOW</a>
                             </div>
                         </div>
