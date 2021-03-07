@@ -93,6 +93,16 @@ class ProductController extends Controller
             $product->deleteImage();
             $data['image'] = $image;
         }
+        if($request->hasFile('price_list')){
+            $price_list = $request->price_list->store('public/products');
+            $product->deleteImage();
+            $data['price_list'] = $price_list;
+        }
+        if($request->hasFile('color')){
+            $color = $request->color->store('public/products');
+            $product->deleteImage();
+            $data['color'] = $color;
+        }
         $product->update($data);
         session()->flash('success','Post Updated Successfully');
         return redirect(route('product.show',$product->id));

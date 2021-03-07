@@ -40,8 +40,8 @@
                                         <th>Action</th>
                                     </tr>
                                 </thead>
+                                @foreach ($products as $product)
                                 <tbody>
-                                    @foreach ($products as $product)
                                     <td>{{$product->title}}</td>
                                     <td>{{$product->price}}</td>
                                     <td><a href="{{route('product.show',$product->id)}}"
@@ -52,8 +52,8 @@
                                             <button type="submit" class="btn btn-danger btn-sm"
                                                 onclick="return confirm('Are you sure?')">Delete</button>
                                     </td>
-                                    @endforeach
                                 </tbody>
+                                @endforeach
                             </table>
                         </div>
                     </div>
