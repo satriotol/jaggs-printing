@@ -7,12 +7,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Product Form</h1>
+                    <h1>{{isset($product)? 'Edit Product':'Product Form'}}</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{route('admin.index')}}">Home</a></li>
-                        <li class="breadcrumb-item active">Product Form</li>
+                        <li class="breadcrumb-item active">{{isset($product)? 'Edit Product':'Product Form'}}</li>
                     </ol>
                 </div>
             </div>
@@ -26,31 +26,38 @@
                 <div class="col-md-12">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Product Form</h3>
+                            <h3 class="card-title">{{isset($product)? 'Edit Product':'Product Form'}}</h3>
                         </div>
-                        <form role="form" action="{{route('product.store')}}" method="post"
-                            enctype="multipart/form-data">
+                        @include('admin.partials.errors')
+                        <form role="form"
+                            action="@isset($product) {{route('product.update',$product->id)}} @endisset @empty($product) {{route('product.store')}} @endempty"
+                            method="post" enctype="multipart/form-data">
                             @csrf
+                            @if(isset($product))
+                            @method('PUT')
+                            @endif
                             <div class="card-body">
                                 <div class="form-group">
                                     <label for="title">Title</label>
                                     <input name="title" type="text" class="form-control" id="Product"
-                                        placeholder="Enter Product...">
+                                        placeholder="Enter Product..." value="{{isset($product) ? $product->title:''}}">
                                 </div>
                                 <div class="form-group">
                                     <label for="Price">Price</label>
                                     <input name="price" type="number" class="form-control" id="Product"
-                                        placeholder="Enter Price...">
+                                        placeholder="Enter Price..." value="{{isset($product) ? $product->price:''}}">
                                 </div>
                                 <div class="form-group">
                                     <label for="Material">Material</label>
                                     <input name="material" type="text" class="form-control" id="Product"
-                                        placeholder="Enter Material...">
+                                        placeholder="Enter Material..." value="{{isset($product) ? $product->material:''}}">
                                 </div>
                                 <div class="form-group">
                                     <label for="Size">Size</label>
                                     <textarea name="size" class="textarea" placeholder="Place some text here"
-                                        style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid rgb(221, 221, 221); padding: 10px; display: none;"></textarea>
+                                        style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid rgb(221, 221, 221); padding: 10px; display: none;">
+                                        {{isset($product) ? $product->size:''}}
+                                    </textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="ImageInput">Image</label>

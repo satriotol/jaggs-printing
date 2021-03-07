@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{asset('plugins/daterangepicker/daterangepicker.css')}}">
     <link rel="stylesheet" href="{{asset('plugins/summernote/summernote-bs4.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    @yield('css')
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -77,7 +78,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="{{route('admin.index')}}" class="nav-link">
+                                    <a href="{{route('product.index')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>List Product</p>
                                     </a>
