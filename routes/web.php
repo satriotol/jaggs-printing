@@ -20,7 +20,7 @@ Auth::routes([
     'verify' => false,
 ]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'IndexController@index')->name('home');
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/admin', 'AdminController@index')->name('admin.index');
 });
