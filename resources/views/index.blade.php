@@ -135,7 +135,7 @@
                                 <a href="{{asset('storage/'.$product->color)}}" target="_blank" class="btn-buy">COLOUR</a>
                             </div>
                             <div class="btn-wrap">
-                                <a href="https://api.whatsapp.com/send?phone=6281226135584&text=Saya%20ingin%20memesan%20{{$product->title}}" class="btn-buy">ORDER NOW</a>
+                                <a href="https://api.whatsapp.com/send?phone=682323358515&text=Saya%20ingin%20memesan%20{{$product->title}}" class="btn-buy">ORDER NOW</a>
                             </div>
                         </div>
                     </div>
