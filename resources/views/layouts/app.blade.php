@@ -72,7 +72,6 @@
             </div>
         </nav>
 
-<<<<<<< HEAD
             <nav class="nav-menu d-none d-lg-block">
                 <ul class="nav-inner">
                     <li class="active"><a href="#about">Home</a></li>
@@ -106,11 +105,5 @@
 
     <!-- Template Main JS File -->
     <script src="{{asset('assets/js/main.js')}}"></script>
-=======
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
->>>>>>> 73044520e45162f124a6214b4c2e39a079b68cc4
 </body>
 </html>
