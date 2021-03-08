@@ -445,7 +445,7 @@
                 <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
                         class="bx bxl-whatsapp"></i></a>
                 <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
-                        class="bx bxl-envelope"></i></a>
+                        class="bx bx-envelope"></i></a>
                 {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
