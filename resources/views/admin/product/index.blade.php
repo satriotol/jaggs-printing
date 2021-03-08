@@ -46,11 +46,12 @@
                                     <td>{{$product->price}}</td>
                                     <td><a href="{{route('product.show',$product->id)}}"
                                             class="btn btn-warning btn-sm">Detail</a>
-                                        <form action="{{route('product.destroy', $product->id)}}" method="POST">
+                                        <form class="btn" action="{{route('product.destroy', $product->id)}}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-danger btn-sm"
                                                 onclick="return confirm('Are you sure?')">Delete</button>
+                                        </form>
                                     </td>
                                 </tbody>
                                 @endforeach

@@ -117,7 +117,7 @@ class ProductController extends Controller
     public function destroy(Product $product)
     {
         // $product->delete();
-        Storage::delete([$product->image,$product->price_list,$product->color]);
+        Storage::delete($product->image,$product->price_list,$product->color);
         $product->forceDelete();
         session()->flash('success','Product Deleted Successfully');
         return redirect(route('product.index'));

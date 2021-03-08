@@ -33,7 +33,6 @@
                     <div class="small-box bg-info">
                         <div class="inner">
                             <h3>{{$products}}</h3>
-
                             <p>Product</p>
                         </div>
                         <div class="icon">
