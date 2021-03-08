@@ -11,9 +11,9 @@
 |
 */
 
+use App\Http\Controllers\ProductController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
-// Route::resource('/',IndexController::class);
 
 Auth::routes([
     'register' => false,
@@ -21,6 +21,10 @@ Auth::routes([
     'verify' => false,
 ]);
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('/', IndexController::class);
+Route::get('/', 'IndexController@index')->name('home');
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/admin', 'AdminController@index')->name('admin.index');
+    Route::resource('/admin/product','ProductController');
+});
+// Route::resource('/', IndexController::class);
 
