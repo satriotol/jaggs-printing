@@ -135,7 +135,7 @@
                                 <a href="{{asset('storage/'.$product->color)}}" target="_blank" class="btn-buy">COLOUR</a>
                             </div>
                             <div class="btn-wrap">
-                                <a href="https://api.whatsapp.com/send?phone=682323358515&text=Saya%20ingin%20memesan%20{{$product->title}}" class="btn-buy">ORDER NOW</a>
+                                <a href="https://api.whatsapp.com/send?phone=+6282323358515&text=Saya%20ingin%20memesan%20{{$product->title}}" class="btn-buy">ORDER NOW</a>
                             </div>
                         </div>
                     </div>
@@ -442,9 +442,9 @@
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> --}}
                 <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
                         class="bx bxl-instagram"></i></a>
-                <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
+                <a href="https://api.whatsapp.com/send?phone=+6282323358515&text=Saya%20ingin%20memesan%20" target="_blank" class="instagram"><i
                         class="bx bxl-whatsapp"></i></a>
-                <a href="https://www.instagram.com/jaggs.printing/" target="_blank" class="instagram"><i
+                <a href="mailto::jaggs.printing@gmail.com" target="_blank" class="instagram"><i
                         class="bx bx-envelope"></i></a>
                 {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
