@@ -20,16 +20,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-<<<<<<< HEAD
-    @yield('banner')
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-        <div class="container">
-
-            <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
-            <div class="logo d-block d-lg-none">
-                <a href="#"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-=======
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -79,7 +69,6 @@
                         @endguest
                     </ul>
                 </div>
->>>>>>> 73044520e45162f124a6214b4c2e39a079b68cc4
             </div>
         </nav>
 
